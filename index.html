@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <title>Welcome To Suplob Roy's Personal Website</title>
+</head>
+<body>
+    <section class="container">
+        <div id="hero" data-aos="fade-in">
+            <div id="name">
+                <h1>Hi, I'm Suplob Roy</h1>
+            </div>
+            <div id='aboutMeButton'>
+               <a href="#aboutMe"><button id="btn">About Me</button></a> 
+            </div> 
+        </div> 
+
+        <div id="aboutMe" data-aos="fade-right">
+                <div id="left">
+                    <img src="dp.jpg" alt="">
+                </div>      
+                
+                <div id="right">
+                    <h1>ABOUT ME</h1>
+                    <p>Hi I'm a teenager from Bangladesh. I love to program and learn new things.</p>
+                    <div id="socialLinks">
+                        <a href="https://www.facebook.com/porbo123" target="blank"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/suplob-roy-b790451bb/" target="blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                        <a href="mailto:parbaroy30@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                    </div>
+                </div>
+                
+        </div>
+
+        <div class="contactMe" data-aos="fade-in">
+            <h1>Contact Me</h1>
+            <form method="post" id="contact-form" action="contact-form.php">
+                <input type="text" name="name" class="form-control" placeholder="Enter Your Name" required> 
+                <br>
+                <input type="email" name="email" class="form-control" placeholder="Enter Your Email Adress" required> 
+                <br>
+                <textarea name="message" class="form-control" placeholder="Enter Your Message" rows='4' required ></textarea> <br>
+                <input type="submit" class="form-control" id="btn" value="SEND MESSAGE">
+            </form>
+        </div>
+    </section>
+    <script src="/darkmode.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
